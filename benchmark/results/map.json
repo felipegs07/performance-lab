@@ -1,0 +1,39 @@
+{
+  "name": "Map",
+  "date": "2021-09-13T22:46:00.191Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "mapSplice",
+      "ops": 4841211,
+      "margin": 0.3,
+      "percentSlower": 87.22
+    },
+    {
+      "name": "mapPush",
+      "ops": 37873388,
+      "margin": 0.32,
+      "percentSlower": 0
+    },
+    {
+      "name": "mapIndex",
+      "ops": 34147073,
+      "margin": 1.04,
+      "percentSlower": 9.84
+    },
+    {
+      "name": "mapLength",
+      "ops": 37237489,
+      "margin": 0.6,
+      "percentSlower": 1.68
+    }
+  ],
+  "fastest": {
+    "name": "mapPush",
+    "index": 1
+  },
+  "slowest": {
+    "name": "mapSplice",
+    "index": 0
+  }
+}

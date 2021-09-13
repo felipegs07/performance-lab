@@ -1,0 +1,16 @@
+{
+  "name": "performance-lab",
+  "version": "1.0.0",
+  "description": "A performance lab to do benchmarking of code",
+  "main": "index.js",
+  "author": "Felipe Gustavo",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "benny": "^3.6.15",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "2.2.1"
+  }
+}

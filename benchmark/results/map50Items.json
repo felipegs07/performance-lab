@@ -1,0 +1,57 @@
+{
+  "name": "Map",
+  "date": "2021-09-13T22:52:49.034Z",
+  "version": "1.0.0",
+  "results": [
+    {
+      "name": "mapRecursive",
+      "ops": 210290,
+      "margin": 2.33,
+      "percentSlower": 95.94
+    },
+    {
+      "name": "mapPush",
+      "ops": 5183548,
+      "margin": 0.57,
+      "percentSlower": 0
+    },
+    {
+      "name": "mapImmutable",
+      "ops": 230836,
+      "margin": 0.39,
+      "percentSlower": 95.55
+    },
+    {
+      "name": "mapCancat",
+      "ops": 129294,
+      "margin": 0.34,
+      "percentSlower": 97.51
+    },
+    {
+      "name": "mapSplice",
+      "ops": 546941,
+      "margin": 0.7,
+      "percentSlower": 89.45
+    },
+    {
+      "name": "mapIndex",
+      "ops": 4900197,
+      "margin": 1.36,
+      "percentSlower": 5.47
+    },
+    {
+      "name": "mapLength",
+      "ops": 4803671,
+      "margin": 0.68,
+      "percentSlower": 7.33
+    }
+  ],
+  "fastest": {
+    "name": "mapPush",
+    "index": 1
+  },
+  "slowest": {
+    "name": "mapCancat",
+    "index": 3
+  }
+}
